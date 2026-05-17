@@ -4,9 +4,11 @@
 
 #include <sal.h>
 
-#else
+#ifndef _Frees_ptr_opt_
+#define _Frees_ptr_opt_
+#endif
 
-// Empty macro definitions for source annotations
+#else
 
 #define _In_opt_
 #define _Out_opt_
