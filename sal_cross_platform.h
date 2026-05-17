@@ -1,6 +1,6 @@
 #pragma once
 
-#if defined(_WIN32) && defined(_MSC_VER)
+#if defined(_WIN32) && defined(_MSC_VER) && !defined(__clang__)
 
 #include <sal.h>
 
