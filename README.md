@@ -21,6 +21,8 @@ cmake -S . -B build -DCALC_ENGINE_BUILD_EXAMPLE=ON
 
 To integrate into your own CMake project:
 
+You can also use fetchContent, see [here](https://github.com/DanielLMcGuire/CalculatorCLI).
+
 ```cmake
 add_subdirectory(CEngine)
 target_link_libraries(your_target PRIVATE CalcEngine)
